@@ -27,7 +27,7 @@ export default class TodoInput extends Component {
                     type="submit"
                     className={item ? 'btn btn-warning btn-block mt-3' : 'btn btn-success btn-block mt-3'}
                     >
-                    {item ? 'Update' : 'Submit'}
+                    Submit
                     </button>
                 </form>
 
