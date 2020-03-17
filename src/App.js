@@ -8,8 +8,8 @@ class App extends React.Component {
 
   state = {
     todos: [
-      {id: 1, name: 'Apple', editItem: false},
-      {id: 2, name: 'Orange', editItem: false},
+      {id: 1, name: 'Buy Fruits', editItem: false},
+      {id: 2, name: 'Cleaning House', editItem: false},
     ],
     id: uuid(),
     item: '',
